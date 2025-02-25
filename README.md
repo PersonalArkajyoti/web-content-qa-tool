@@ -1,8 +1,6 @@
 # 🌐 Web Content Q&A Chatbot
 
-  This project is a **Web Content Q&A Chatbot** built using **Streamlit** and powered by **Groq API** and **Pinecone**. It allows users to enter webpage URLs, extract content, and ask questions based on the   ingested data.
-
----
+  A simple web-based Q&A chatbot that allows users to input URLs, extract webpage content, and ask questions based on the ingested content. The chatbot retrieves relevant information using Pinecone and generates responses using the Groq API.
 
 ## 🚀 Features
 
@@ -11,8 +9,6 @@
   - Uses **Groq API** to generate answers based on relevant content.
   - Provides a clean and interactive **Streamlit** UI.
   - Stores chat history for better context.
-
----
 
 ## 🛠️ Installation
 
@@ -37,7 +33,7 @@
     GROQ_API_KEY="your_groq_api_key"
   Replace your_pinecone_api_key and your_groq_api_key with actual API keys.
 
----
+
 ## ▶️ Running the Application
 To start the Streamlit app, run:
   streamlit run app.py
@@ -50,20 +46,20 @@ To start the Streamlit app, run:
   - The chatbot retrieves relevant text and generates an answer using Groq API.
   
 ## 📌 Example Usage
-  Run the app using streamlit run app.py.
-  Enter webpage URLs and submit.
-  Ask questions related to the webpage content.
-  Get AI-generated answers based on the extracted text.
+  1. Run the app using streamlit run app.py.
+  2. Enter webpage URLs and submit.
+  3. Ask questions related to the webpage content.
+  4. Get AI-generated answers based on the extracted text.
 
 
 ## 🤖 Technologies Used
-  Python
-  Streamlit (UI)
-  BeautifulSoup (Web Scraping)
-  Pinecone (Vector Database)
-  Groq API (AI Model for Answering)
+  - Python
+  - Streamlit (UI)
+  - BeautifulSoup (Web Scraping)
+  - Pinecone (Vector Database)
+  - Groq API (AI Model for Answering)
 
----
+
 
 ## 📜 License
   This project is licensed under the MIT License.
@@ -72,5 +68,5 @@ To start the Streamlit app, run:
   Pull requests are welcome! If you have suggestions for improvements, feel free to submit an issue or open a PR.
 
 ## 📬 Contact
-  For questions or feedback, reach out via:
+  For questions or feedback, reach out via
     Email: arkajyotichakraborty99@gmail.com
