@@ -29,10 +29,11 @@
 
 ### 4️⃣ Set Up Environment Variables
   Create a .env file in the project root and add the following:
+  
     PINECONE_API_KEY="your_pinecone_api_key"
     GROQ_API_KEY="your_groq_api_key"
+    
   Replace your_pinecone_api_key and your_groq_api_key with actual API keys.
-
 
 ## ▶️ Running the Application
 To start the Streamlit app, run:
